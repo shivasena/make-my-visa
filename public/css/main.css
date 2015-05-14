@@ -1,7 +1,59 @@
+@import "http://fonts.googleapis.com/css?family=Open+Sans:400,500italic,700,400";
+
 body {
-  padding-top: 50px;
+	font-size: 15px;
+  font-family:'Open Sans',sans-serif
 }
-.starter-template {
-  padding: 40px 15px;
-  text-align: center;
+
+/* Header */
+header {
+	height: 78px;
+}
+
+.navbar {
+	background-color: white;
+	border: none;
+}
+
+	.logo {
+		padding-top: 20px;
+		padding-bottom: 20px
+	}
+
+		.contacts li {
+			padding-top: 29px;
+			padding-bottom: 29px;
+		}
+
+		.textitem {
+			padding-left: 15px;
+			padding-right: 15px;
+		}
+
+		.address {
+			font-weight: lighter;
+			color: #727272
+		}
+
+		.phone {
+			font-weight: bold;
+			color: #8BC34A
+		}
+
+		.iconitem {
+			display: inline-block !important;
+			margin-top: -14px;
+		}
+
+		.iconitem a {
+			color: #727272;
+			font-weight: lighter;
+		}
+
+.pattern-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url('../i/pattern.png') repeat center center fixed;
+  z-index: 0;
 }
