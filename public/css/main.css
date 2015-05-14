@@ -1,13 +1,17 @@
 @import "http://fonts.googleapis.com/css?family=Open+Sans:400,500italic,700,400";
 
 body {
-	font-size: 15px;
+	font-size: 16px;
   font-family:'Open Sans',sans-serif
 }
 
+.navbar-collapse.in {
+	z-index: 10000;
+}
+
 /* Header */
-header {
-	height: 78px;
+.header {
+	height: 94px;
 }
 
 .navbar {
@@ -49,6 +53,18 @@ header {
 			color: #727272;
 			font-weight: lighter;
 		}
+
+/* First Screen Offer */
+.firstoffer {
+	height: 500px;
+	background: url(../i/bg-visa-covered.jpg) #f5f5f5 no-repeat fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding: 50px 0;
+}
+
 
 .pattern-bg {
   position: fixed;
