@@ -346,4 +346,5 @@ h4
 .quote-text
 {
     font-size: 25px;
+    min-height: 105px;
 }
