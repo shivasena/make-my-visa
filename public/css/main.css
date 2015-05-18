@@ -1,125 +1,166 @@
-@import "http://fonts.googleapis.com/css?family=Open+Sans:400,500italic,700,400";
+@import 'http://fonts.googleapis.com/css?family=Open+Sans:400,500italic,700,400';
 @import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=cyrillic,cyrillic-ext);
 
-body {
-	font-size: 16px;
-  font-family:'Open Sans',sans-serif;
-  color: #212121;
+body
+{
+    font-family: 'Open Sans',sans-serif;
+    font-size: 16px;
+
+    color: #212121;
 }
-h1, h2, h3, h4, h5 {
-	font-family: 'Open Sans Condensed', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5
+{
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.navbar-collapse.in {
-	z-index: 10000;
+.navbar-collapse.in
+{
+    z-index: 10000;
 }
 
 /* Header */
-.header {
-	height: 94px;
+.header
+{
+    height: 94px;
 }
 
-.navbar {
-	background-color: white;
-	border: none;
+.navbar
+{
+    border: none;
+    background-color: white;
 }
 
-	.logo {
-		padding-top: 20px;
-		padding-bottom: 20px
-	}
+.logo
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
-		.contacts li {
-			padding-top: 29px;
-			padding-bottom: 29px;
-		}
+.contacts li
+{
+    padding-top: 29px;
+    padding-bottom: 29px;
+}
 
-		.textitem {
-			padding-left: 15px;
-			padding-right: 15px;
-		}
+.textitem
+{
+    padding-right: 15px;
+    padding-left: 15px;
+}
 
-		.address {
-			font-weight: lighter;
-			color: #727272
-		}
+.address
+{
+    font-weight: lighter;
 
-		.phone {
-			font-weight: bold;
-			color: #8BC34A
-		}
+    color: #727272;
+}
 
-		.iconitem {
-			display: inline-block !important;
-			margin-top: -14px;
-		}
+.phone
+{
+    font-weight: bold;
 
-		.iconitem a {
-			color: #727272;
-			font-weight: lighter;
-		}
+    color: #8bc34a;
+}
+
+.iconitem
+{
+    display: inline-block !important;
+
+    margin-top: -14px;
+}
+
+.iconitem a
+{
+    font-weight: lighter;
+
+    color: #727272;
+}
 
 /* Hero Unit */
-.firstoffer {
-	min-height: 500px;
-	background: url(../i/bg-visa-covered.jpg) #f5f5f5 no-repeat fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding: 50px 0;
+.firstoffer
+{
+    min-height: 500px;
+    padding: 50px 0;
+
+    background: url(../i/bg-visa-covered.jpg) #f5f5f5 no-repeat fixed;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
-.pattern-bg {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  background: url('../i/pattern.png') repeat center center fixed;
-  z-index: 0;
+.pattern-bg
+{
+    position: fixed;
+    z-index: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: url('../i/pattern.png') repeat center center fixed;
 }
 
-H1 {
-	text-shadow: 1px 1px 4px white;
-	font-size: 42px;
-	padding-bottom: 15px;
-	color: #689F38;
+h1
+{
+    font-size: 42px;
+
+    padding-bottom: 15px;
+
+    color: #689f38;
+    text-shadow: 1px 1px 4px white;
 }
 
-H2 {
-	padding-top: 10px;
-	padding-bottom: 40px;
-	text-align: center;
+h2
+{
+    padding-top: 10px;
+    padding-bottom: 40px;
+
+    text-align: center;
 }
 
-H3 {
-	color: #727272;
+h3
+{
+    color: #727272;
 }
 
-H4 {
-	font-size: 22px;
+h4
+{
+    font-size: 22px;
 }
 
-.firstoffer .panel {
-	border-radius: 3px;
-	border:none;
+.firstoffer .panel
+{
+    border: none;
+    border-radius: 3px;
 }
 
-.whatwedo {
-	list-style: none;
-	color: white;
-	font-size: 20px;
-	padding-left: 10px;
+.whatwedo
+{
+    font-size: 20px;
+
+    padding-left: 10px;
+
+    list-style: none;
+
+    color: white;
 }
 
-.whatwedo li {
-	line-height: 35px;
+.whatwedo li
+{
+    line-height: 35px;
 }
 
-.whatwedo span {
-	display: inline;
-	background: #8BC34A;
-	box-shadow: 10px 0 0 #8BC34A, -10px 0 0 #8BC34A;
-	text-shadow: 0px 0px 1px gray;
+.whatwedo span
+{
+    display: inline;
+
+    background: #8bc34a;
+    box-shadow: 10px 0 0 #8bc34a, -10px 0 0 #8bc34a;
+    text-shadow: 0 0 1px gray;
 }
 
 /*
@@ -129,113 +170,180 @@ H4 {
 }
 */
 
-.contactform {
-	padding-top: 20px;
+.contactform
+{
+    padding-top: 20px;
 }
 
-.contactform input {
-	background: #eee;
-	position: relative;
-	padding-left: 16px;
-	padding-right: 16px;
-	border-radius: 3px;
-	color: #888;
-	font-weight: 400;
-	font-size: 16px;
-	width: 100%;
-	height: 48px;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box /* Opera/IE 8+ */;
+.contactform input
+{
+    font-size: 16px;
+    font-weight: 400;
+
+    position: relative;
+
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box /* Opera/IE 8+ */;
+    width: 100%;
+    height: 48px;
+    padding-right: 16px;
+    padding-left: 16px;
+
+    color: #888;
+    border-radius: 3px;
+    background: #eee;
 }
 
-.subscribe_btn {
-	background: #e82b68;
-  padding: 30px 30px 5px 15px;
-  border: none;
-  border-radius: 3px;
-  color: #fff;
-  margin: 0;
-  position: relative;
-  width: 100%;
-  height: 48px;
-  font-weight: 400;
-  font-size: 16px;
-  padding: 10px;
-  text-transform: uppercase;
+.subscribe_btn
+{
+    font-size: 16px;
+    font-weight: 400;
+
+    position: relative;
+
+    width: 100%;
+    height: 48px;
+    margin: 0;
+    padding: 30px 30px 5px 15px;
+    padding: 10px;
+
+    text-transform: uppercase;
+
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    background: #e82b68;
 }
 
-.subscribe_btn:hover {
-	background: #c42358;
-	color: #fff;
-	padding-top: 50px;
-	margin: 0;
-	padding: 10px;
+.subscribe_btn:hover
+{
+    margin: 0;
+    padding: 10px;
+    padding-top: 50px;
+
+    color: #fff;
+    background: #c42358;
 }
 
-.form_footnote {
-	color: #b6b6b6;
-	font-size: 13px;
-	text-align: left;
-	padding: 20px 20px 0px;
+.form_footnote
+{
+    font-size: 13px;
+
+    padding: 20px 20px 0;
+
+    text-align: left;
+
+    color: #b6b6b6;
 }
 
 /* #3 Our Work In Numbers */
 
-.in_numbers {
-	background: #eff3f6;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding-bottom: 70px;
-	border-bottom: 3px solid #dfe6ec;
+.in_numbers
+{
+    padding-bottom: 70px;
+
+    border-bottom: 3px solid #dfe6ec;
+    background: #eff3f6;
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
 }
 
-.numbers {
-	font-size: 36px;
-	font-weight: 700;
-	color: #689F38;
-	display: inline-block;
-	position: relative;
+.numbers
+{
+    font-size: 36px;
+    font-weight: 700;
+
+    position: relative;
+
+    display: inline-block;
+
+    color: #689f38;
 }
-.statistics {
-	font-size: 16px;
-	  color: #727272;
-	  display: inline-block;
-	  position: relative;
-	  width: 55%;
-	  padding-left: 10px;
-	  text-align: left;
+.statistics
+{
+    font-size: 16px;
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 55%;
+    padding-left: 10px;
+
+    text-align: left;
+
+    color: #727272;
 }
 
 /* #4 Reasons */
-.reasons {
-	position: relative;
-	text-align: center;
+.reasons
+{
+    position: relative;
+
+    text-align: center;
 }
-.reasons .row {
-	padding-bottom: 40px;
+.reasons .row
+{
+    padding-bottom: 40px;
 }
-.reason_icon {
-	color: #689F38;
-	font-size: 100px;
+.reason_icon
+{
+    font-size: 100px;
+
+    color: #689f38;
 }
-.reason_text h4 {
-	font-weight: 500;
+.reason_text h4
+{
+    font-weight: 500;
 }
-.reason_text p {
-	color: #727272;
+.reason_text p
+{
+    color: #727272;
 }
 
 /* #5 How We Work */
-.howwework {
-	background-color: #DCEDC8;
+.howwework
+{
+    background-color: #dcedc8;
 }
-.howwework .col-md-3 {
-	text-align: center;
+.howwework .col-md-3
+{
+    text-align: center;
 }
 
-.howwework p {
-	color: #727272;
+.howwework .row
+{
+    padding-bottom: 20px;
+}
+.howwework p
+{
+    color: #727272;
+}
+
+/* #6 Testimonials */
+.testimonials
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    text-align: center;
+
+    color: white;
+    background-color: #4caf50;
+}
+.tst_caption
+{
+    font-size: 50px;
+
+    padding-bottom: 20px;
+
+    text-shadow: 1px 1px 1px gray;
+}
+
+.quote-text
+{
+    font-size: 25px;
 }
