@@ -8,6 +8,7 @@ body
 
     color: #212121;
 }
+
 h1,
 h2,
 h3,
@@ -117,7 +118,7 @@ h1
 h2
 {
     padding-top: 10px;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 
     text-align: center;
 }
@@ -241,7 +242,7 @@ h4
 
 .in_numbers
 {
-    padding-bottom: 70px;
+    padding-bottom: 40px;
 
     border-bottom: 3px solid #dfe6ec;
     background: #eff3f6;
@@ -308,6 +309,7 @@ h4
 .howwework
 {
     background-color: #dcedc8;
+    padding-bottom: 40px;
 }
 .howwework .col-md-3
 {
@@ -316,7 +318,7 @@ h4
 
 .howwework .row
 {
-    padding-bottom: 20px;
+
 }
 .howwework p
 {
@@ -327,7 +329,7 @@ h4
 .testimonials
 {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 
     text-align: center;
 
@@ -347,4 +349,35 @@ h4
 {
     font-size: 25px;
     min-height: 105px;
+}
+
+/* #7 About */
+
+/* #8 Team */
+.team {
+	  background: #eff3f6;
+}
+
+.team img {
+	border-radius: 100%;
+	height: auto;
+	border: 5px solid #fff;
+	position: relative;
+	display: inline-block;
+	float: left;
+	margin-top: 50px;
+}
+
+.author_text {
+	max-width: 270px;
+	margin-left: 20px;
+	position: relative;
+	display: inline-block;
+	text-align: left;
+	color: #727272;
+}
+
+.author_text i {
+	color: #689f38;
+	font-size: 14px;
 }
