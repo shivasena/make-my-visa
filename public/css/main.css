@@ -196,6 +196,10 @@ h4
     background: #eee;
 }
 
+textarea {
+	background: #eee !important;
+}
+
 .subscribe_btn
 {
     font-size: 16px;
@@ -221,8 +225,7 @@ h4
 {
     margin: 0;
     padding: 10px;
-    padding-top: 50px;
-
+    
     color: #fff;
     background: #c42358;
 }
@@ -356,6 +359,7 @@ h4
 /* #8 Team */
 .team {
 	  background: #eff3f6;
+	  padding-bottom: 40px;
 }
 
 .team img {
@@ -380,4 +384,28 @@ h4
 .author_text i {
 	color: #689f38;
 	font-size: 14px;
+}
+
+/* #9 Map */
+
+.map {
+	background: 
+		linear-gradient(
+	      rgba(2,90,82, 0.8), 
+	      rgba(2,90,82, 0.8)
+	      ),
+		url('../i/bg-map.jpg') fixed no-repeat;
+	padding-bottom: 40px;
+	background-size: cover;
+	color: #fff;
+	padding-top: 40px;
+}
+
+.map iframe {
+  text-align: left;
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  height: 303px;
+  margin-top: 20px;
 }
