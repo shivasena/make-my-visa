@@ -70,35 +70,33 @@
           <h1>Полное визовое сопровождение</h1>
 
           <ul class="whatwedo">
-            <li>Оформление загран паспорта</li>
-            <li>Страховка, авиабилеты, бронь отеля</li>
-            <li>Шенгенская виза</li>
-            <li>Виза в Азию и Австралию</li>
-            <li>Визы в США и Великобританию</li>
-            <li>Индивидуально и для групп</li>
-            <li>Туризм, бизнесс, ПМЖ</li>
+            <li><span>Оформление загран паспорта</span></li>
+            <li><span>Страховка, авиабилеты, бронь отеля</span></li>
+            <li><span>Шенгенская виза</span></li>
+            <li><span>Виза в Азию и Австралию</span></li>
+            <li><span>Визы в США и Великобританию</span></li>
+            <li><span>Индивидуально и для групп</span></li>
+            <li><span>Туризм, бизнесс, ПМЖ</span></li>
           </ul>
         </div>
         <div class="col-md-5">
           <div class="panel panel-default">
             <div class="panel-body">
             <h3>Получить консультацию</h3>
-              <form action="//formspree.io/mika.smith@gmail.com" method="POST">
+              <form class="contactform" action="//formspree.io/mika.smith@gmail.com" method="POST">
                 <div class="form-group">
-                  <input type="text" class="form-control" id="exampleInputEmail1" placeholder="Телефон*">
+                  <input type="text" name="phone" class="form-control" placeholder="Телефон*">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Имя">
-                </div>
+                  <input type="text" name="name" class="form-control" placeholder="Имя">
+                </div> 
                 <div class="form-group">
-                  <textarea class="form-control" rows="2" placeholder="Сообщение"></textarea>
-                </div>
-                <input type="submit" class="btn btn-default" value="Отправить запрос">
+                  <input type="text" name="message" class="form-control" placeholder="Сообщение">
+                </div>               
 
-                
-
-                <div>* обязательное поле</div>
+                <button class="subscribe_btn" type="submit" class="btn btn-default">Отправить запрос</button>
               </form>
+              <p class="form_footnote">* - обязательное поле</p>
             </div>
           </div>
           

@@ -1,8 +1,13 @@
 @import "http://fonts.googleapis.com/css?family=Open+Sans:400,500italic,700,400";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700&subset=cyrillic,cyrillic-ext);
 
 body {
 	font-size: 16px;
-  font-family:'Open Sans',sans-serif
+  font-family:'Open Sans',sans-serif;
+  color: #212121;
+}
+h1, h2, h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
 }
 
 .navbar-collapse.in {
@@ -54,7 +59,7 @@ body {
 			font-weight: lighter;
 		}
 
-/* First Screen Offer */
+/* Hero Unit */
 .firstoffer {
 	height: 500px;
 	background: url(../i/bg-visa-covered.jpg) #f5f5f5 no-repeat fixed;
@@ -65,11 +70,101 @@ body {
 	padding: 50px 0;
 }
 
-
 .pattern-bg {
   position: fixed;
   width: 100%;
   height: 100%;
   background: url('../i/pattern.png') repeat center center fixed;
   z-index: 0;
+}
+
+h1 {
+	text-shadow: 1px 1px 4px white;
+	font-size: 42px;
+	padding-bottom: 15px;
+	color: #689F38;
+}
+
+h3 {
+	color: #727272;
+}
+
+.firstoffer .panel {
+	border-radius: 3px;
+	border:none;
+}
+
+.whatwedo {
+	list-style: none;
+	color: white;
+	font-size: 20px;
+}
+
+.whatwedo li {
+	line-height: 35px;
+}
+
+.whatwedo span {
+	display: inline;
+	background: #8BC34A;
+	box-shadow: 10px 0 0 #8BC34A, -10px 0 0 #8BC34A;
+	text-shadow: 0px 0px 1px gray;
+}
+
+/*
+.whatwedo span:before {
+	content: "✓ ";
+	-webkit-font-smoothing: antialiased;
+}
+*/
+
+.contactform {
+	padding-top: 20px;
+}
+
+.contactform input {
+	background: #eee;
+	position: relative;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-radius: 3px;
+	color: #888;
+	font-weight: 400;
+	font-size: 16px;
+	width: 100%;
+	height: 48px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box /* Opera/IE 8+ */;
+}
+
+.subscribe_btn {
+	background: #e82b68;
+  padding: 30px 30px 5px 15px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 48px;
+  font-weight: 400;
+  font-size: 16px;
+  padding: 10px;
+  text-transform: uppercase;
+}
+
+.subscribe_btn:hover {
+	background: #c42358;
+	color: #fff;
+	padding-top: 50px;
+	margin: 0;
+	padding: 10px;
+}
+
+.form_footnote {
+	color: #b6b6b6;
+	font-size: 13px;
+	text-align: left;
+	padding: 20px 20px 0px;
 }
