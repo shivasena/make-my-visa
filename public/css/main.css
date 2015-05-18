@@ -196,8 +196,9 @@ h4
     background: #eee;
 }
 
-textarea {
-	background: #eee !important;
+textarea
+{
+    background: #eee !important;
 }
 
 .subscribe_btn
@@ -225,7 +226,7 @@ textarea {
 {
     margin: 0;
     padding: 10px;
-    
+
     color: #fff;
     background: #c42358;
 }
@@ -245,7 +246,7 @@ textarea {
 
 .in_numbers
 {
-    padding-bottom: 40px;
+    padding-bottom: 50px;
 
     border-bottom: 3px solid #dfe6ec;
     background: #eff3f6;
@@ -311,18 +312,16 @@ textarea {
 /* #5 How We Work */
 .howwework
 {
-    background-color: #dcedc8;
     padding-bottom: 40px;
+
+    background-color: #dcedc8;
 }
 .howwework .col-md-3
 {
     text-align: center;
 }
 
-.howwework .row
-{
 
-}
 .howwework p
 {
     color: #727272;
@@ -351,116 +350,155 @@ textarea {
 .quote-text
 {
     font-size: 25px;
+
     min-height: 105px;
 }
 
 /* #7 About */
 
 /* #8 Team */
-.team {
-	  background: #eff3f6;
-	  padding-bottom: 40px;
+.team
+{
+    padding-bottom: 40px;
+
+    background: #eff3f6;
 }
 
-.team img {
-	border-radius: 100%;
-	height: auto;
-	border: 5px solid #fff;
-	position: relative;
-	display: inline-block;
-	float: left;
-	margin-top: 50px;
+.team img
+{
+    position: relative;
+
+    display: inline-block;
+    float: left;
+
+    height: auto;
+    margin-top: 50px;
+
+    border: 5px solid #fff;
+    border-radius: 100%;
 }
 
-.author_text {
-	max-width: 270px;
-	margin-left: 20px;
-	position: relative;
-	display: inline-block;
-	text-align: left;
-	color: #727272;
+.author_text
+{
+    position: relative;
+
+    display: inline-block;
+
+    max-width: 270px;
+    margin-left: 20px;
+
+    text-align: left;
+
+    color: #727272;
 }
 
-.author_text i {
-	color: #689f38;
-	font-size: 14px;
+.author_text i
+{
+    font-size: 14px;
+
+    color: #689f38;
 }
 
 /* #9 Map */
 
-.map {
-	background: 
-		linear-gradient(
-	      rgba(2,90,82, 0.8), 
-	      rgba(2,90,82, 0.8)
-	      ),
-		url('../i/bg-map.jpg') fixed no-repeat;
-	padding-bottom: 40px;
-	background-size: cover;
-	color: #fff;
-	padding-top: 40px;
+.map
+{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    color: #fff;
+    background: linear-gradient(
+    rgba(2,90,82, .8),
+    rgba(2,90,82, .8)
+    ),
+    url('../i/bg-map.jpg') fixed no-repeat;
+    background-size: cover;
 }
 
-.map H3 {
-	color: #fff;
+.map h3
+{
+    color: #fff;
 }
 
-.map iframe {
-  text-align: left;
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  height: 303px;
-  margin-top: 20px;
+.map iframe
+{
+    position: relative;
+
+    display: inline-block;
+
+    width: 100%;
+    height: 303px;
+    margin-top: 20px;
+
+    text-align: left;
 }
 
 /* #10 Footer */
 
-.footer {
-	text-align: center;
-	color: #689f38;
-	padding-bottom: 40px;
+.footer
+{
+    padding-bottom: 40px;
+
+    text-align: center;
+
+    color: #689f38;
 }
 
-.social {
-	list-style: none;
-	margin-left: -30px;
+.social
+{
+    margin-left: -30px;
+
+    list-style: none;
 }
 
-.lastchance {
-	background: #fff;
-	font-weight: 700;
-	color: #689f38;
-	border: 2px solid #689f38;
-	padding: 20px 35px;
-	text-align: center;
-	display: inline-block;
-	border-radius: 3px;
-	text-decoration: none;
-	position: relative;
-	margin:20px 0;
+.lastchance
+{
+    font-weight: 700;
+
+    position: relative;
+
+    display: inline-block;
+
+    margin: 20px 0;
+    padding: 20px 35px;
+
+    text-align: center;
+    text-decoration: none;
+
+    color: #689f38;
+    border: 2px solid #689f38;
+    border-radius: 3px;
+    background: #fff;
 }
-.lastchance:hover {
-	background: #689f38;
-	color: #fff;
-	text-decoration: none;
+.lastchance:hover
+{
+    text-decoration: none;
+
+    color: #fff;
+    background: #689f38;
 }
 
-.copyright {
-	padding:10px 0;
+.copyright
+{
+    padding: 10px 0;
 }
 
-.social li {
-	font-size: 20px;
-	width: 50px;
-	background: #689f38;
-	border-radius: 50%;
-	height: 50px;
-	line-height: 50px;
-	margin: 0 10px;
-	display: inline-block;
+.social li
+{
+    font-size: 20px;
+    line-height: 50px;
+
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+    margin: 0 10px;
+
+    border-radius: 50%;
+    background: #689f38;
 }
 
-.social li a {
-	color: #fff;
+.social li a
+{
+    color: #fff;
 }
