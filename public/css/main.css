@@ -6,7 +6,7 @@ body {
   font-family:'Open Sans',sans-serif;
   color: #212121;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, h5 {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
 
@@ -93,6 +93,10 @@ H2 {
 
 H3 {
 	color: #727272;
+}
+
+H4 {
+	font-size: 22px;
 }
 
 .firstoffer .panel {
@@ -219,8 +223,19 @@ H3 {
 }
 .reason_text h4 {
 	font-weight: 500;
-	font-size: 22px;
 }
 .reason_text p {
+	color: #727272;
+}
+
+/* #5 How We Work */
+.howwework {
+	background-color: #DCEDC8;
+}
+.howwework .col-md-3 {
+	text-align: center;
+}
+
+.howwework p {
 	color: #727272;
 }
