@@ -77,6 +77,8 @@
             <li><span>Визы в США и Великобританию</span></li>
             <li><span>Индивидуально и для групп</span></li>
             <li><span>Туризм, бизнесс, ПМЖ</span></li>
+            <li><span>Виза для зарегистрирванных в зоне АТО</span></li>
+            <li><span>Виза при нарушении визового режима</span></li>
           </ul>
         </div>
         <div class="col-md-5">
@@ -85,16 +87,28 @@
             <h3>Получить консультацию</h3>
               <form class="contactform" action="//formspree.io/mika.smith@gmail.com" method="POST">
                 <div class="form-group">
-                  <input type="text" name="phone" class="form-control" placeholder="Телефон*">
+                  <input type="text" name="phone" class="form-control" placeholder="Ваш телефон*">
                 </div>
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" placeholder="Имя">
-                </div> 
-                <div class="form-group">
-                  <input type="text" name="message" class="form-control" placeholder="Сообщение">
-                </div> 
+                </div>
 
-                <input type="hidden" name="_next" value="/thanks.html">              
+                <div class="form-group">
+                  <select class="form-control" name="select">
+                    <option value="" disabled selected>Тема консультации*</option>
+                    <option value="Documents">Оформление документов</option>
+                    <option value="Tickets etc">Страховка, авиабилеты, бронь</option>
+                    <option value="Shengen">Шенгенская виза</option>
+                    <option value="Asia Australia">Виза в Азию и Австралию</option>
+                    <option value="USA GB">Виза в США или Великобританию</option>
+                    <option value="other">Другое</option>
+                  </select>
+                </div>
+
+                <!-- Formspree setup -->
+                <input type="hidden" name="_next" value="/thanks.html" />
+                <input type="hidden" name="_subject" value="Новая заявка - firstoffer" />
+                <input type="text" name="_gotcha" style="display:none" />
 
                 <button class="subscribe_btn" type="submit" class="btn btn-default">Отправить запрос</button>
               </form>
@@ -149,14 +163,14 @@
             <div class="col-md-4">
               <div class="reason_icon"><i class="fa fa-coffee"></i></div>
               <div class="reason_text">
-                <h4>Всегда минимальное время получения визы</h4>
+                <h4>Без вашего присутствия</h4>
                 <p>Присылайте и получайте документы удобными для вас и быстрыми почтовыми службами.</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="reason_icon"><i class="fa fa-file-o"></i></div>
               <div class="reason_text">
-                <h4>Всегда минимальное время получения визы</h4>
+                <h4>Минимальный набор документов</h4>
                 <p>Загран паспорт, копия украинского паспорта и две фотографии 3,5х4,5. Все остальное делаем мы.</p>
               </div>
             </div>
@@ -165,21 +179,21 @@
             <div class="col-md-4">
               <div class="reason_icon"><i class="fa fa-life-ring"></i></div>
               <div class="reason_text">
-                <h4>Всегда минимальное время получения визы</h4>
-                <p>Оплата по факту. Никаких предоплат.</p>
+                <h4>Безопасно - постоплата</h4>
+                <p>Никаких предоплат. Оплата только по факту.</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="reason_icon"><i class="fa fa-puzzle-piece"></i></div>
               <div class="reason_text">
-                <h4>Всегда минимальное время получения визы</h4>
+                <h4>Индивидуальный подход</h4>
                 <p>Мы знаем как решить самые сложные задачи при оформлении документов.</p>
               </div>
             </div>
             <div class="col-md-4">
               <div class="reason_icon"><i class="fa fa-usd"></i></div>
               <div class="reason_text">
-                <h4>Всегда минимальное время получения визы</h4>
+                <h4>Бесплатная консультация</h4>
                 <p>Час консультаций по визовым вопросам - бесплатно.</p>
               </div>
             </div>
@@ -316,11 +330,26 @@
               </div>
               <div class="form-group">
                 <input type="text" name="name" class="form-control" placeholder="Имя">
-              </div> 
-              <div class="form-group">
-                <textarea rows="5" name="message" class="form-control" placeholder="Сообщение"></textarea>
               </div>
-              <input type="hidden" name="_next" value="//make-my-visa.com.ua/thanks.html" />               
+              <div class="form-group">
+                <input type="text" name="email" class="form-control" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <select class="form-control" name="select">
+                  <option value="" disabled selected>Тема вопроса*</option>
+                  <option value="Documents">Оформление документов</option>
+                  <option value="Tickets etc">Страховка, авиабилеты, бронь</option>
+                  <option value="Shengen">Шенгенская виза</option>
+                  <option value="Asia Australia">Виза в Азию и Австралию</option>
+                  <option value="USA GB">Виза в США или Великобританию</option>
+                  <option value="other">Другое</option>
+                </select>
+              </div>
+              
+              <!-- Formspree setup -->
+              <input type="hidden" name="_next" value="/thanks.html" />
+              <input type="hidden" name="_subject" value="Новая заявка - map section" />
+              <input type="text" name="_gotcha" style="display:none" />              
 
               <button class="subscribe_btn" type="submit" class="btn btn-default">Отправить</button>
             </form>
@@ -335,13 +364,14 @@
       <div class="container">
         <h2>Чего же вы ждете?</h2>
         <p>Свяжитесь с нами, и задайте вопрос. Это бесплатно.</p>
-        <a class="lastchance" href="#">Спросите специалиста</a>
-        <div class="copyright">© 2015, MAKE-MY-VISA</div>
+        <!-- a class="lastchance" href="#">Спросите специалиста</a -->
+        
         <ul class="social">
           <li><a href="#"><i class="fa fa-facebook"></i></a></li>
           <li><a href="#"><i class="fa fa-vk"></i></a></li>
           <li><a href="#"><i class="fa fa-skype"></i></a></li>          
         </ul>
+        <div class="copyright"><span class="brandname">MAKE MY VISA</span> © 2015</div>
 
       </div>
     </div>

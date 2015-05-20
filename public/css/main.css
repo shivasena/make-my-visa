@@ -162,7 +162,7 @@ h4
     padding-top: 20px;
 }
 
-.contactform input
+.contactform input, .contactform select
 {
     font-size: 16px;
     font-weight: 400;
@@ -422,7 +422,7 @@ textarea
     display: inline-block;
 
     width: 100%;
-    height: 303px;
+    height: 300px;
     margin-top: 20px;
 
     text-align: left;
@@ -442,7 +442,7 @@ textarea
 .social
 {
     margin-left: -30px;
-
+	margin-top: 40px;
     list-style: none;
 }
 
@@ -508,4 +508,10 @@ textarea
 	color: #e82b68;
 	text-transform: uppercase;
 	font-weight: 700;
+}
+
+.return {
+	font-size: 16px;
+	line-height: 32px;
+	margin-top: 40px;
 }
