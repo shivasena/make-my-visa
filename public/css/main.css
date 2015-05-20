@@ -18,12 +18,7 @@ h5
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.navbar-collapse.in
-{
-    z-index: 10000;
-}
-
-/* Header */
+/* #1 Header */
 .header
 {
     height: 94px;
@@ -33,6 +28,8 @@ h5
 {
     border: none;
     background-color: white;
+    z-index: 10;
+    position: relative;
 }
 
 .logo
@@ -92,17 +89,6 @@ h5
        -moz-background-size: cover;
          -o-background-size: cover;
             background-size: cover;
-}
-
-.pattern-bg
-{
-    position: fixed;
-    z-index: 0;
-
-    width: 100%;
-    height: 100%;
-
-    background: url('../i/pattern.png') repeat center center fixed;
 }
 
 h1
@@ -355,6 +341,10 @@ textarea
 }
 
 /* #7 About */
+
+.about img {
+	padding: 40px 0;
+}
 
 /* #8 Team */
 .team
