@@ -387,11 +387,22 @@ textarea
     color: #727272;
 }
 
-.author_text i
+.author_text small
 {
     font-size: 14px;
 
     color: #689f38;
+}
+
+.cont {
+	font-size: 40px;
+	color: #e82b68;
+	border-radius: 50%;
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	text-align: center;
+	background: white;
 }
 
 /* #9 Map */
