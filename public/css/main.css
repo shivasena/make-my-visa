@@ -217,6 +217,11 @@ textarea
     background: #c42358;
 }
 
+.schedule {
+	margin-top: 15px;
+	color: #727272;
+}
+
 .form_footnote
 {
     font-size: 13px;
@@ -491,4 +496,16 @@ textarea
 .social li a
 {
     color: #fff;
+}
+
+/* #11 Other */
+.contactlist {
+	list-style-type: none;
+	  line-height: 34px;
+}
+
+.brandname {
+	color: #e82b68;
+	text-transform: uppercase;
+	font-weight: 700;
 }
