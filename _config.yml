@@ -1,3 +1,11 @@
+# Site settings
+title: Your awesome title
+description: Travel Agency Make-My-Visa
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://make-my-visa.com.ua" # the base hostname & protocol for your site
+
+
 # Build settings
 encoding: utf-8
 title: Your awesome title
