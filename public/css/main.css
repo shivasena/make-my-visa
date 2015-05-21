@@ -394,6 +394,9 @@ textarea
     color: #00BCD4;
 }
 
+.author_text p {
+    min-height: 220px;  
+}
 .cont {
 	font-size: 40px;
 	color: #e82b68;
