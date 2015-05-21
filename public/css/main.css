@@ -351,6 +351,10 @@ textarea
 	padding: 40px 0;
 }
 
+.about p {
+    color:#727272;
+}
+
 /* #8 Team */
 .team
 {
@@ -416,11 +420,7 @@ textarea
     padding-bottom: 40px;
 
     color: #fff;
-    background: linear-gradient(
-    rgba(2,90,82, .8),
-    rgba(2,90,82, .8)
-    ),
-    url('../i/bg-map.jpg') fixed no-repeat;
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 1) ), url('../i/bg-map.jpg') fixed no-repeat;
     background-size: cover;
 }
 
