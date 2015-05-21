@@ -61,7 +61,7 @@ h5
 {
     font-weight: bold;
 
-    color: #00BCD4;
+    color: #8bc34a;
 }
 
 .iconitem
@@ -97,7 +97,7 @@ h1
 
     padding-bottom: 15px;
 
-    color: #00BCD4;
+    color: #689f38;
     text-shadow: 1px 1px 4px white;
 }
 
@@ -145,8 +145,8 @@ h4
 {
     display: inline;
 
-    background: #00BCD4;
-    box-shadow: 10px 0 0 #00BCD4, -10px 0 0 #00BCD4;
+    background: #8bc34a;
+    box-shadow: 10px 0 0 #8bc34a, -10px 0 0 #8bc34a;
     text-shadow: 0 0 1px gray;
 }
 
@@ -256,7 +256,7 @@ textarea
 
     display: inline-block;
 
-    color: #00BCD4;
+    color: #689f38;
 }
 .statistics
 {
@@ -289,7 +289,7 @@ textarea
 {
     font-size: 100px;
 
-    color: #00BCD4;
+    color: #689f38;
 }
 .reason_text h4
 {
@@ -305,7 +305,7 @@ textarea
 {
     padding-bottom: 40px;
 
-    background-color: #B2EBF2;
+    background-color: #dcedc8;
 }
 .howwework .col-md-3
 {
@@ -327,7 +327,7 @@ textarea
     text-align: center;
 
     color: white;
-    background-color: #0097A7;
+    background-color: #4caf50;
 }
 .tst_caption
 {
@@ -391,7 +391,7 @@ textarea
 {
     font-size: 14px;
 
-    color: #00BCD4;
+    color: #689f38;
 }
 
 .cont {
@@ -447,7 +447,7 @@ textarea
 
     text-align: center;
 
-    color: #00BCD4;
+    color: #689f38;
 }
 
 .social
@@ -471,8 +471,8 @@ textarea
     text-align: center;
     text-decoration: none;
 
-    color: #00BCD4;
-    border: 2px solid #00BCD4;
+    color: #689f38;
+    border: 2px solid #689f38;
     border-radius: 3px;
     background: #fff;
 }
@@ -481,7 +481,7 @@ textarea
     text-decoration: none;
 
     color: #fff;
-    background: #00BCD4;
+    background: #689f38;
 }
 
 .copyright
@@ -501,7 +501,7 @@ textarea
     margin: 0 10px;
 
     border-radius: 50%;
-    background: #00BCD4;
+    background: #689f38;
 }
 
 .social li a
