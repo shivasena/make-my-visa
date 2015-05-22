@@ -19,7 +19,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
+        {% if page.url == "/index.html" %}
         <img class="logo" src="public/i/makemyvisa-logo-214x54.png" alt="Make-My-Visa логотип">
+        {% else %}
+        <a href="/"><img class="logo" src="public/i/makemyvisa-logo-214x54.png" alt="Make-My-Visa логотип"></a>
+        {% endif %}
       </div>
     
       <!-- Collect the nav links, forms, and other content for toggling -->
