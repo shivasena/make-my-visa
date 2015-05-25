@@ -442,6 +442,11 @@ textarea
     text-align: left;
 }
 
+.map iframe {
+    border:0;
+    frameborder:none;
+}
+
 /* #10 Footer */
 
 .footer
