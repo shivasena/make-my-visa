@@ -376,6 +376,7 @@ textarea
 
     border: 5px solid #fff;
     border-radius: 100%;
+    width: 250px;
 }
 
 .author_text
@@ -404,13 +405,16 @@ textarea
 }
 .cont {
 	font-size: 40px;
-	color: #e82b68;
+	color: #00BCD4;
 	border-radius: 50%;
 	display: inline-block;
 	width: 60px;
 	height: 60px;
 	text-align: center;
 	background: white;
+}
+.cont:hover {
+    color: #e82b68;
 }
 
 /* #9 Map */
