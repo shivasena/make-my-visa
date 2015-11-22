@@ -139,6 +139,7 @@ h4
     background-position: center center;
     background-attachment: fixed;
     height: 500px;
+    min-width: 360px;
 
 }
 

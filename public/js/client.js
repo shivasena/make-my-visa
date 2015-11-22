@@ -14,8 +14,8 @@ $(document).ready(function() {
       'paginationSpeed' : 400,
       'loop': true,
       'lazyLoad': true,
-      // 'autoplay': true,
-      'items': 4
+      'autoplay': true,
+      'items': 2
   });
  
 });
