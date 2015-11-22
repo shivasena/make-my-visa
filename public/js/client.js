@@ -6,3 +6,16 @@ $('.carousel').carousel({
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 });
+
+$(document).ready(function() {
+ 
+  $("#owl-flags").owlCarousel({
+      'slideSpeed' : 300,
+      'paginationSpeed' : 400,
+      'loop': true,
+      'lazyLoad': true,
+      // 'autoplay': true,
+      'items': 4
+  });
+ 
+});
