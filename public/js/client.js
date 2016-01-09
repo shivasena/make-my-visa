@@ -19,3 +19,7 @@ $(document).ready(function() {
   });
  
 });
+
+$('#orderModal').on('shown.bs.modal', function () {
+  $('#phoneInput').focus()
+})

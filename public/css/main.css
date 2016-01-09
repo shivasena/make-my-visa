@@ -32,6 +32,10 @@ h5
     position: relative;
 }
 
+.navbar-brand {
+    padding-left: 0px !important;
+}
+
 .logo
 {
 /*    padding-top: 10px;
@@ -94,12 +98,14 @@ h5
 
 h1
 {
-    font-size: 42px;
+    font-size: 48px;
 
     padding-bottom: 15px;
 
-    color: #00BCD4;
+    /*color: #00BCD4;
     text-shadow: 1px 1px 1px white;
+*/
+    color: #e82b68;
 }
 
 h2
@@ -234,6 +240,7 @@ textarea
     border: none;
     border-radius: 3px;
     background: #e82b68;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
 }
 
 .subscribe_btn:hover
@@ -252,7 +259,7 @@ textarea
 
 .form_footnote
 {
-    font-size: 13px;
+    font-size: 14px;
 
     padding: 20px 20px 0;
 
@@ -265,7 +272,7 @@ textarea
 
 .in_numbers
 {
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 
     border-bottom: 3px solid #dfe6ec;
     background: #eff3f6;
@@ -332,7 +339,7 @@ textarea
 .howwework
 {
     padding-bottom: 40px;
-    border-bottom: white 3px solid;
+    /*border-bottom: white 3px solid;*/
     background-color: #B2EBF2;
 }
 .howwework .col-md-3
@@ -350,7 +357,7 @@ textarea
 .testimonials
 {
     padding-top: 40px;
-    padding-bottom: 40px;
+    padding-bottom: 60px;
 
     text-align: center;
 
@@ -598,3 +605,232 @@ textarea
 }
 @media (min-width:992px) {}
 @media (min-width:1200px){}
+
+
+/* Countries */
+.countries {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.countrycard {
+    margin-bottom: 24px;
+}
+
+
+.demo-card-wide.mdl-card {
+  width: 100%;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-pl.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.mdl-data-table {
+    width: 100% !important;
+}
+
+.mdl-data-table {
+    border: none !important;
+}
+
+
+.card {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    overflow:hidden;
+}
+
+.cardhead {
+    height: 176px;
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-eu.jpg') center / cover;
+    padding: 16px;
+
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #000;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* Default Cards */
+.greece {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ), url('../i/bg-flag-gr.jpg') center / cover;
+}
+
+.spain {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-sp.jpg') center / cover;
+}
+
+.lithuania {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-li.jpg') center / cover;
+}
+.poland {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-pl.jpg') center / cover;
+}
+.slovakia {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-slk.jpg') center / cover;
+}
+.france {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-fr.jpg') center / cover;
+}
+
+.usa {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-us.jpg') center / cover;   
+}
+
+.canada {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-ca.jpg') center / cover;   
+}
+
+.china {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-ch.jpg') center / cover;   
+}
+
+.indonesia {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-ind.jpg') center / cover;   
+}
+
+.vienam {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-viet.jpg') center / cover;   
+}
+
+.uae {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-uae.jpg') center / cover;   
+}
+
+.southkorea {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-sk.jpg') center / cover;   
+}
+
+.morocco {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-mr.jpg') center / cover;   
+}
+
+.southafrica {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-sa.jpg') center / cover;   
+}
+
+.other {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ), url('../i/bg-map-all.jpg') center / cover;   
+}
+
+    /* Hover Cards */
+    .countrycard:hover .greece {
+        background: url('../i/bg-flag-gr.jpg') center / cover;
+    }
+    .countrycard:hover .spain {
+        background: url('../i/bg-flag-sp.jpg') center / cover;
+    }
+    .countrycard:hover .lithuania {
+        background: url('../i/bg-flag-li.jpg') center / cover;
+    }
+    .countrycard:hover .poland {
+        background: url('../i/bg-flag-pl.jpg') center / cover;
+    }
+    .countrycard:hover .slovakia {
+        background: url('../i/bg-flag-slk.jpg') center / cover;
+    }
+    .countrycard:hover .france {
+        background: url('../i/bg-flag-fr.jpg') center / cover;
+    }
+    .countrycard:hover .usa {
+        background: url('../i/bg-flag-us.jpg') center / cover;   
+    }
+    .countrycard:hover .canada {
+        background: url('../i/bg-flag-ca.jpg') center / cover;   
+    }
+    .countrycard:hover .china {
+        background: url('../i/bg-flag-ch.jpg') center / cover;   
+    }
+    .countrycard:hover .indonesia {
+        background: url('../i/bg-flag-ind.jpg') center / cover;   
+    }
+    .countrycard:hover .vienam {
+        background: url('../i/bg-flag-viet.jpg') center / cover;   
+    }
+    .countrycard:hover .uae {
+        background: url('../i/bg-flag-uae.jpg') center / cover;   
+    }
+    .countrycard:hover .southkorea {
+        background: url('../i/bg-flag-sk.jpg') center / cover;   
+    }
+    .countrycard:hover .morocco {
+        background: url('../i/bg-flag-mr.jpg') center / cover;   
+    }
+    .countrycard:hover .southafrica {
+        background: url('../i/bg-flag-sa.jpg') center / cover;   
+    }
+    .countrycard:hover .other {
+        background: url('../i/bg-map-all.jpg') center / cover;   
+    }
+
+    /* Card button hover */
+
+    .countrycard:hover .cardaction a {
+        border-radius: 2px;
+        background-color:#e82b68;
+        color:#fff;
+        box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+    }
+    
+    .cardhead h3 {
+        color: #fff !important;
+        -webkit-align-self: flex-end;
+        -ms-flex-item-align: end;
+        align-self: flex-end;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        line-height: normal;
+        text-transform: uppercase;
+        font-size: 38px;
+    }
+
+.cardcontent {
+    margin: 24px;
+    min-height: 160px;
+}
+
+/*.cardtable>tbody>tr>td:first-child,
+.cardtable>thead>tr>th:first-child {
+    padding-left: 24px !important;
+}*/
+
+.cardtable>thead>tr>th {
+    border-bottom: none;
+}
+
+.cardaction {
+    font-size: 16px;
+    line-height: normal;
+    width: 100%;
+    background-color: transparent;
+    padding: 8px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+    .cardaction a {
+        color: #e82b68;
+        text-transform: uppercase;
+        line-height: 36px;
+        margin-left: 16px;
+        margin-right: 16px;
+        background: 0 0;
+        border: none;
+        border-radius: 2px;
+        height: 36px;
+        min-width: 64px;
+        padding: 0 16px;
+        display: inline-block;
+        letter-spacing: 0;
+        overflow: hidden;
+    }
+
+
