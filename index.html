@@ -7,7 +7,7 @@ layout: default
 <div class="container-fluid firstoffer">
   <div class="container">
   <div class="row">
-    <div class="col-md-7"> 
+    <div class="col-md-7">
       <h1>Полное визовое сопровождение</h1>
 
       <ul class="whatwedo">
@@ -25,10 +25,10 @@ layout: default
     <div class="col-md-5">
       <div class="panel panel-default">
         <div class="panel-body">
-        <h3>Получите консультацию бесплатно</h3>
-          <form class="contactform" action="//formspree.io/{{ site.email }}" method="POST">
+        <h3>Получи бесплатную консультацию сейчас!</h3>
+          <form class="contactform" action="//formspree.io/{{ site.email }}" method="POST" data-toggle="validator" id="headForm">
             <div class="form-group">
-              <input type="text" name="phone" class="form-control" placeholder="Ваш телефон*">
+              <input type="text" name="phone" class="form-control" placeholder="Ваш телефон*" required>
             </div>
             <div class="form-group">
               <input type="text" name="name" class="form-control" placeholder="Имя">
@@ -52,13 +52,13 @@ layout: default
             <input type="text" name="_gotcha" style="display:none" />
             <input type="hidden" name="_cc" value="order@make-my-visa.com.ua" />
 
-            <button type="submit" class="subscribe_btn btn btn-default">Отправить запрос</button>
+            <button type="submit" class="subscribe_btn btn btn-default">Отправить!</button>
           </form>
           <p class="schedule">Работаем ежедневно с 10:00 до 21:00</p>
           <p class="form_footnote">* - обязательное поле</p>
         </div>
       </div>
-      
+
     </div>
   </div>
 
@@ -67,53 +67,562 @@ layout: default
 
 </div>
 
-<div class="container_fluid in_numbers">
-  <div class="container">
-  <h2>Наша работа в цифрах</h2>
-    <div class="row">
-        <div class="col-md-3">
-          <div class="numbers">+780</div>
-          <div class="statistics">Оформленых виз</div>
+<div class="container-fluid countries">
+  <div class="row">
+    <h2>Популярные страны Европы</h2>
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead greece">
+          <h3>Греция</h3>
         </div>
-        <div class="col-md-3">
-          <div class="numbers">+28</div>
-          <div class="statistics">Разных стран мира</div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Стоимость</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Туристическая виза в Грецию 30/45</td>
+                <td>€200</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
-        <div class="col-md-3">
-          <div class="numbers">+1000</div>
-          <div class="statistics">Загран. паспортов</div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
         </div>
-        <div class="col-md-3">
-          <div class="numbers">+1.5</div>
-          <div class="statistics">млн. км путешествий</div>
-        </div>
+      </div>
     </div>
-  </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead spain">
+          <h3>Испания</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Туристическая виза в Испанию 90/180</td>
+                <td>€300</td>
+              </tr>
+              <tr>
+                <td>Туристическая виза в Испанию 30/45</td>
+                <td>€150</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead lithuania">
+          <h3>Литва</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Бизнес виза в Литву на 3 года</td>
+                <td>€1200</td>
+              </tr>
+              <tr>
+                <td>Бизнес виза в Литву на 2 года</td>
+                <td>€700</td>
+              </tr>
+              <tr class="collapse moreli">
+                <td>Бизнес виза в Литву на 1 год</td>
+                <td>€450</td>
+              </tr>
+              <tr class="collapse moreli">
+                <td>Бизнес виза в Литву 90/180</td>
+                <td>€350</td>
+              </tr>
+              <tr class="collapse moreli">
+                <td>Туристическая виза в Литву 15/30</td>
+                <td>€200</td>
+              </tr>
+              <tr class="clickable moreli collapse in" data-toggle="collapse" data-target=".moreli" aria-expanded="false">
+                <td colspan="2" class="showmore">показать больше</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead poland">
+          <h3>Польша</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Туристическая виза в Польшу на 2 года</td>
+                <td>€550</td>
+              </tr>
+              <tr>
+                <td>Туристическая виза в Польшу на 1 год</td>
+                <td>€400</td>
+              </tr>
+              <tr class="collapse morepl">
+                <td>Туристическая виза в Польшу на 7-21 день</td>
+                <td>€150</td>
+              </tr>
+              <tr class="collapse morepl">
+                <td>Бизнес виза в Польшу на 1 год</td>
+                <td>€300</td>
+              </tr>
+              <tr class="collapse morepl">
+                <td>Бизнес виза в Польшу 180/180</td>
+                <td>€300</td>
+              </tr>
+              <tr class="collapse morepl">
+                <td>Запись в визовый центр Польши - Бизнес</td>
+                <td>2500 грн</td>
+              </tr>
+              <tr class="collapse morepl">
+                <td>Запись в визовый центр Польши - Туризм</td>
+                <td>1000 грн</td>
+              </tr>
+              <tr class="clickable morepl collapse in" data-toggle="collapse" data-target=".morepl" aria-expanded="false">
+                <td colspan="2" class="showmore">показать больше</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead slovakia">
+          <h3>Словакия</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Туристическая виза в Словакию на 1&nbsp;год</td>
+                <td>€450</td>
+              </tr>
+              <tr>
+                <td>Туристическая виза в Словакию 90/180</td>
+                <td>€400</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead france">
+          <h3>Франция</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Туристическая виза во Францию 10/30</td>
+                <td>€250</td>
+
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+
+      </div>
+    </div>
+    
+  </div><!-- row end -->
+
+  <div class="row">
+    <h2>Америка</h2>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead usa">
+          <h3>США</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Виза B1/B1 (гостевая, туризм)</td>
+                <td>$200</td>
+              </tr>
+              <tr>
+                <td>Заполнение анкеты</td>
+                <td>$100</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+<!--     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead canada">
+          <h3>Канада</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Виза B1/B1 (гостевая, туризм)</td>
+                <td>$200</td>
+              </tr>
+              <tr>
+                <td>Заполнение анкеты</td>
+                <td>$100</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+      </div>
+    </div> -->
+
+  </div><!-- row end -->
+  
+  <div class="row">
+    <h2>Популярные направления Азии</h2>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead china">
+          <h3>Китай</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>M: от 30 до 60 дней (мульти)</td>
+                <td>$500</td>
+              </tr>
+              <tr>
+                <td>M: от 30 до 60 дней (двукратный въезд)</td>
+                <td>$280</td>
+              </tr>
+              <tr class="collapse morecn">
+                <td>M: от 30 до 60 дней (однократный въезд)</td>
+                <td>$200</td>
+              </tr>
+              <tr class="collapse morecn">
+                <td>L: до 30 дней (двукратный въезд)</td>
+                <td>$200</td>
+              </tr>
+              <tr class="collapse morecn">
+                <td>L: до 30  дней (однократный въезд) </td>
+                <td>$180</td>
+              </tr>
+              <tr class="clickable morepl collapse in" data-toggle="collapse" data-target=".morepl" aria-expanded="false">
+                <td colspan="2" class="showmore">показать больше</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead indonesia">
+          <h3>Индонезия</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Виза в Индонезию до 60 дней</td>
+                <td>$150</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead vienam">
+          <h3>Вьетнам</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Виза во Вьетнам до 90 дней</td>
+                <td>$150</td>
+              </tr>
+              <tr>
+                <td>Виза во Вьетнам до 30 дней</td>
+                <td>$100</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead uae">
+          <h3>ОАЭ</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Виза в Арабские Эмираты 30/60</td>
+                <td>$150</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead southkorea">
+          <h3>Южная Корея</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Виза в Южную Корею 30/90</td>
+                <td>$200</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- row end -->
+  
+  <div class="row">
+    <h2>Популярные страны Африки</h2>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead morocco">
+          <h3>Марокко</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Виза в Марокко от 7 дней</td>
+                <td>$150</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead southafrica">
+          <h3>ЮАР</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Виза в Южную Африканскую Республику до 30 дней</td>
+                <td>$200</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead other">
+          <h3>Виза украинцам в Москве</h3>
+        </div>
+        <div class="cardcontent">
+          <p>Оформим визы в другие страны: Йемен, Камбоджа, Катар, Мьянма, Оман, Венесуэла, Колумбия, Коста – Рика, Уругвай, Новая Зеландия, Папуа и Новая Гвинея, Мальта, Гана, Зимбабве, Кабо-Верде, Камерун, Кот-Дивуар, Руанда, Чад, Экваториальна Гвинея...</p>
+          <p>Для граждан Украины оформление документов в Москве - €200.</p>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- row end -->
 </div>
 
 <div class="container_fluid reasons">
   <div class="container">
-  <h2>Почему мы?</h2>
+  <h2>Удобно и выгодно!</h2>
     <div class="row">
+
         <div class="col-md-4">
           <div class="reason_icon"><i class="fa fa-clock-o"></i></div>
           <div class="reason_text">
-            <h4>Всегда минимальное время получения визы</h4>
-            <p>Мы знаем как получить необходимые документы без волокиты.</p>
+            <h4>Всегда минмально возможное время получения визы</h4>
+            <p>Мы получаем необходимые документы без проволочек. Знаем как работает система!</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="reason_icon"><i class="fa fa-coffee"></i></div>
           <div class="reason_text">
             <h4>Без вашего присутствия</h4>
-            <p>Присылайте и получайте документы удобными для вас и быстрыми почтовыми службами.</p>
+            <p>Присылайте и получайте документы курьерской службой, не отрываясь от своих занятий, не теряйте время в очередях и "беготню по инстанциям".</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="reason_icon"><i class="fa fa-file-o"></i></div>
           <div class="reason_text">
             <h4>Минимальный набор документов</h4>
-            <p>Для Шенгенской визы - загран паспорт, копия украинского паспорта и две фотографии 3,5х4,5. Все остальное делаем мы.</p>
+            <p>Для Шенгенской визы - нужны только загран паспорт, копия украинского паспорта, две фотографии 3,5х4,5. Все остальное делаем мы.</p>
           </div>
         </div>
     </div>
@@ -122,21 +631,21 @@ layout: default
           <div class="reason_icon"><i class="fa fa-life-ring"></i></div>
           <div class="reason_text">
             <h4>Безопасно - постоплата</h4>
-            <p>Никаких предоплат. Оплата только по факту.</p>
+            <p>Работаем без предоплаты, без скрытых платежей! Оплата только по факту.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="reason_icon"><i class="fa fa-puzzle-piece"></i></div>
           <div class="reason_text">
             <h4>Индивидуальный подход</h4>
-            <p>Мы знаем как решить самые сложные задачи при оформлении документов.</p>
+            <p>Решаем самые сложные задачи при оформлении документов, даже после отказов и нарушения визового режима.</p>
           </div>
         </div>
         <div class="col-md-4">
           <div class="reason_icon"><i class="fa fa-usd"></i></div>
           <div class="reason_text">
             <h4>Бесплатная консультация</h4>
-            <p>Час консультаций по визовым вопросам - бесплатно.</p>
+            <p>Задай нам вопрос сейчас и получи консультацию профессионала бесплатно.</p>
           </div>
         </div>
     </div>
@@ -145,27 +654,51 @@ layout: default
 
 <div class="container_fluid howwework">
   <div class="container">
-  <h2>Как мы работаем?</h2>
+  <h2>Как это работает?</h2>
     <div class="row">
       <div class="col-md-3">
         <img src="public/i/step1.png" alt="Step 1">
         <h4>Определитесь</h4>
-        <p>Определитесь с целью поездки - туризм, бизнес или ПМЖ.</p>
+        <p>Выберите страну и определитесь с целью поездки - туризм, бизнес или ПМЖ.</p>
       </div>
       <div class="col-md-3">
         <img src="public/i/step2.png" alt="Step 2">
-        <h4>Свяжитесь</h4>
-        <p>Свяжитесь с нами и получите консультацию специалиста.</p>
+        <h4>Свяжитесь с нами</h4>
+        <p>Получите профессиональную консультацию - оговариваем пакет документов, сроки и цены.</p>
       </div>
       <div class="col-md-3">
         <img src="public/i/step3.png" alt="Step 3">
         <h4>Передайте документы</h4>
-        <p>Пришлите или привезите пакет документов к нам в офис в Киеве.</p>
+        <p>Пришлите курьером или привезите лично пакет документов к нам в офис в Киеве.</p>
       </div>
       <div class="col-md-3">
         <img src="public/i/step4.png" alt="Step 4">
         <h4>Путешествуйте</h4>
-        <p>В оговоренный срок получите визу и оплатите работу.</p>
+        <p>В оговоренный срок получите визу, оплатите работу и наслаждайтесь путешествием.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container_fluid in_numbers">
+  <div class="container">
+  <h2>Занимательные результаты нашей работы</h2>
+    <div class="row">
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="numbers">+780</div>
+        <div class="statistics">Оформленых виз за 3 года</div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="numbers">+28</div>
+        <div class="statistics">Разных стран мира</div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="numbers">+1000</div>
+        <div class="statistics">Загран. паспортов</div>
+      </div>
+      <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <div class="numbers">+1.5</div>
+        <div class="statistics">млн. км путешествий</div>
       </div>
     </div>
   </div>
@@ -202,23 +735,9 @@ layout: default
           <div class="quote-dots">. . .</div>
           <div class="quote-title">Александр</div>
           <div class="quote-link">Лоджистикс ЛТД</div>
-        </div>            
+        </div>
       </div>
 
-    </div>
-  </div>
-</div>
-
-<div class="container_fluid about">
-  <div class="container">
-    <div class="row">
-      <div class="col-md-7">
-        <h2>О нас</h2>
-        <p>Мы 3 года работаем на рынке туризма Украины. Не боимся браться за сложные задачи, и легко решаем простые.</p>
-        <p>Наша задача - оградить вас от бюрократии и потерь времени в очередях. Мы ответственно относимся к своей работе, и следуем высоким стандартам обслуживания - быстро и удобно.</p>
-        <p>Желаем Вам ярких впечатлений и легких интересных путешествий!</p>
-      </div>
-      <div class="col-md-5"><img src="public/i/bag-450x350-crop.png" alt=""></div>
     </div>
   </div>
 </div>
@@ -228,13 +747,13 @@ layout: default
   <h2>Наша команда</h2>
     <div class="row">
       <div class="col-md-4">
-        
+
           <img src="public/i/avatar-ksenia.jpg" alt="">
           <div class="author_text">
             <h4>Ксения</h4>
             <small>Визовый менеджер</small>
             <br>
-            <p>Хотите уберечь свои нервы, время и быть уверенным в запланированной поездке - тогда звоните нам прямо сейчас. 
+            <p>Хотите уберечь свои нервы, время и быть уверенным в запланированной поездке - тогда звоните нам прямо сейчас.
             <br>Есть вопрос? Мы ответим! Для нас клиент - превыше всего, а довольный клиент - самая большая и достойная награда.</p>
 
             <div class="mngr_contacts">
@@ -243,10 +762,10 @@ layout: default
               <a href="mailto:makemyvisa2015@gmail.com" class="social_button" data-toggle="tooltip" data-placement="top" title="makemyvisa2015@gmail.com"><span class="cont"><i class="fa fa-envelope-o"></i></span></a>
             </div>
           </div>
-        
+
       </div>
       <div class="col-md-4">
-        
+
           <img src="public/i/avatar-aleksey.jpg" alt="">
           <div class="author_text">
             <h4>Алексей</h4>
@@ -260,25 +779,39 @@ layout: default
               <a href="mailto:butenkoalexviza@gmail.com" class="social_button" data-toggle="tooltip" data-placement="top" title="butenkoalexviza@gmail.com"><span class="cont"><i class="fa fa-envelope-o"></i></span></a>
             </div>
           </div>
-        
+
       </div>
             <div class="col-md-4">
-        
+
           <img src="public/i/avatar-liudmila.jpg" alt="">
           <div class="author_text">
             <h4>Людмила</h4>
             <small>Визовый менеджер</small>
             <br>
             <p>Собираетесь провести отпуск в Европе или навестить прабабушку в Нью-Йорке, но у вас нет достаточного количества свободного времени на сбор и подготовку необходимой документации? Мы, с радостью, поможем Вам!</p>
-            
+
             <div class="mngr_contacts">
               <a href="tel:+380931437593" class="social_button" data-toggle="tooltip" data-placement="top" title="+38(093)&nbsp;143-75-93"><span class="cont"><i class="fa fa-phone"></i></span></a>
               <a href="skype:liusia1995?chat" class="social_button" data-toggle="tooltip" data-placement="top" title="liusia1995"><span class="cont"><i class="fa fa-skype"></i></span></a>
               <a href="mailto:make.my.visa.ua@gmail.com" class="social_button" data-toggle="tooltip" data-placement="top" title="make.my.visa.ua@gmail.com"><span class="cont"><i class="fa fa-envelope-o"></i></span></a>
             </div>
           </div>
-        
-      </div>          
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container_fluid about">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h2>Визовое агентство Make My Visa</h2>
+        <p>Мы 3 года работаем на рынке туризма Украины. Не боимся браться за сложные задачи, и легко решаем простые.</p>
+        <p>Наша задача - оградить вас от бюрократии и потерь времени в очередях. Мы ответственно относимся к своей работе, и следуем высоким стандартам обслуживания - быстро и удобно.</p>
+        <p>Желаем Вам ярких впечатлений и легких интересных путешествий!</p>
+      </div>
+      <div class="col-md-5"><img src="public/i/bag-450x350-crop.png" alt=""></div>
     </div>
   </div>
 </div>
@@ -295,9 +828,9 @@ layout: default
     <div class="col-md-6">
       <h3>Свяжитесь с нами</h3>
       <div class="contact_us">
-        <form class="contactform" action="//formspree.io/{{ site.email }}" method="POST">
+        <form class="contactform" action="//formspree.io/{{ site.email }}" method="POST" data-toggle="validator" id="footForm">
           <div class="form-group">
-            <input type="text" name="phone" class="form-control" placeholder="Телефон*">
+            <input type="text" name="phone" class="form-control" placeholder="Телефон*" required>
           </div>
           <div class="form-group">
             <input type="text" name="name" class="form-control" placeholder="Имя">
@@ -316,16 +849,16 @@ layout: default
               <option value="other">Другое</option>
             </select>
           </div>
-          
+
           <!-- Formspree setup -->
           <input type="hidden" name="_next" value="/thanks.html" />
           <input type="hidden" name="_subject" value="Новая заявка - map section" />
           <input type="text" name="_gotcha" style="display:none" />
-          <input type="hidden" name="_cc" value="order@make-my-visa.com.ua" />             
+          <input type="hidden" name="_cc" value="order@make-my-visa.com.ua" />
 
           <button type="submit" class="subscribe_btn btn btn-default">Отправить</button>
         </form>
-        
+
       </div>
     </div>
 
@@ -335,15 +868,48 @@ layout: default
 <div class="container_fluid footer">
   <div class="container">
     <h2>Чего же вы ждете?</h2>
-    <p>Свяжитесь с нами, и задайте вопрос. Это бесплатно.</p>
+    <p>Просто свяжитесь с нами сейчас, и получите ответы бесплатно!</p>
     <!-- a class="lastchance" href="#">Спросите специалиста</a -->
-    
+
     <ul class="social">
       <li><a href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
       <li><a href="{{ site.vk }}" target="_blank"><i class="fa fa-vk"></i></a></li>
-      <li><a href="skype:mr.butenko11;liusia1995;kseniyachan1?chat"><i class="fa fa-skype"></i></a></li>          
+      <li><a href="skype:mr.butenko11;liusia1995;kseniyachan1?chat"><i class="fa fa-skype"></i></a></li>
     </ul>
-    <div class="copyright">MAKE MY VISA © 2015</div>
+    <div class="copyright">MAKE MY VISA © 2016</div>
 
+  </div>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="orderModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Получить консультацию эксперта <span class="brandname">Make My Visa</span></h4>
+      </div>
+      <div class="modal-body">
+        <form class="contactform" action="//formspree.io/{{ site.email }}" method="POST" data-toggle="validator" id="modalForm">
+          <div class="form-group">
+            <input type="text" name="phone" class="form-control" placeholder="Телефон*" id="phoneInput" required>
+          </div>
+          <div class="form-group">
+            <input type="text" name="name" class="form-control" placeholder="Имя">
+          </div>
+
+          <!-- Formspree setup -->
+          <input type="hidden" name="_next" value="/thanks.html" />
+          <input type="hidden" name="_subject" value="Новая заявка - firstoffer" />
+          <input type="text" name="_gotcha" style="display:none" />
+          <input type="hidden" name="_cc" value="order@make-my-visa.com.ua" />
+
+          <button type="submit" class="subscribe_btn btn btn-default">Отправить!</button>
+        </form>
+        <p class="schedule">Перезвоним в течение 20 минут с 10:00 до 21:00</p>
+        <p class="form_footnote">* - обязательное поле</p>
+      </div>
+    </div>
   </div>
 </div>
