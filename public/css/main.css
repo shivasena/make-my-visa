@@ -504,6 +504,9 @@ textarea
     margin-bottom: 40px;
     list-style: none;
 }
+.lastcall {
+    color: #e82b68;
+}
 
 .lastchance
 {
