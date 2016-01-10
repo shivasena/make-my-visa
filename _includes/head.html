@@ -6,7 +6,7 @@
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 	<meta name="description" content="{% if page.metadescription %}{{ page.metadescription }}{% else %}{{ site.description }}{% endif %}">
-	<meta name="author" content="">
+	<meta name="author" content="{{ site.gplus }}">
 
 	<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
 
@@ -35,11 +35,11 @@
 	<![endif]-->
 
 	<!-- Open Graph Data -->
-	<meta property="fb:app_id"				content="117588081906644" /> 
-	<meta property="og:url"					content="http://make-my-visa.com.ua/" /> 
-	<meta property="og:title"				content="Ваш персональный ассистент в путешествиях" /> 
-	<meta property="og:site_name"			content="Make My Visa"/>
-	<meta property="og:image"				content="http://make-my-visa.com.ua/public/i/fb-image.png" />
-	<meta property="og:type"				content="website" />
-	<meta property="og:description"			content="{% if page.metadescription %}{{ page.metadescription }}{% else %}{{ site.description }}{% endif %}" />
+	<meta property="fb:app_id"		content="117588081906644" /> 
+	<meta property="og:url"			content="http://make-my-visa.com.ua/" /> 
+	<meta property="og:title"		content="Ваш персональный ассистент в путешествиях" /> 
+	<meta property="og:site_name"	content="Make My Visa"/>
+	<meta property="og:image"		content="http://make-my-visa.com.ua/public/i/fb-image.png" />
+	<meta property="og:type"		content="website" />
+	<meta property="og:description"	content="{% if page.metadescription %}{{ page.metadescription }}{% else %}{{ site.description }}{% endif %}" />
 </head>

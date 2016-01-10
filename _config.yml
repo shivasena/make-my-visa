@@ -17,6 +17,7 @@ include: [.htaccess]
 facebook: https://www.facebook.com/pages/MAKE-MY-VISA/440928226067863
 vk: https://vk.com/makemyvisa
 email: makemyvisa2015@gmail.com
+gplus: https://plus.google.com/u/0/114703891393318435936
 
 gems:
   - jekyll-sitemap
