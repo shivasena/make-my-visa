@@ -15,5 +15,8 @@ include: [.htaccess]
 
 # Social contacts
 facebook: https://www.facebook.com/pages/MAKE-MY-VISA/440928226067863
-vk: https://vk.com/club94548539
+vk: https://vk.com/makemyvisa
 email: makemyvisa2015@gmail.com
+
+gems:
+  - jekyll-sitemap
