@@ -67,6 +67,74 @@ layout: default
 <div class="container-fluid countries">
   <div class="row">
     <h2>Популярные страны Европы</h2>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead hungary">
+          <h3>Венгрия</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Стоимость</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Туристическая виза в Венгрию на 2 года</td>
+                <td>€750</td>
+              </tr>
+              <tr>
+                <td>Туристическая виза в Венгрию на 3 года</td>
+                <td>€950</td>
+              </tr>
+              <tr>
+                <td>Туристическая виза в Венгрию на 5 лет</td>
+                <td>€1500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead greatbritain">
+          <h3>Великобритания</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Стоимость</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Оформление анкеты</td>
+                <td>€100</td>
+              </tr>
+              <tr>
+                <td>Туристическая мультивиза в Великобританию 180/180</td>
+                <td>€200</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+
     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
       <div class="card">
         <div class="cardhead greece">
@@ -85,11 +153,26 @@ layout: default
                 <td>Туристическая виза в Грецию 30/45</td>
                 <td>€200</td>
               </tr>
+              <tr>
+                <td>Туристическая виза в Грецию 90/45</td>
+                <td>€400</td>
+              </tr>
+              <tr class="collapse moregr">
+                <td>Туристическая виза в Грецию 180/90</td>
+                <td>€450</td>
+              </tr>
+              <tr class="collapse moregr">
+                <td>Туристическая виза в Грецию на 1 год</td>
+                <td>€550</td>
+              </tr>
+              <tr class="clickable moregr collapse in" data-toggle="collapse" data-target=".moregr" aria-expanded="false">
+                <td colspan="2" class="showmore">показать больше</td>
+              </tr>
             </tbody>
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
     </div>
@@ -109,6 +192,10 @@ layout: default
             </thead>
             <tbody>
               <tr>
+                <td>Туристическая виза в Испанию на 1 год</td>
+                <td>€650</td>
+              </tr>
+              <tr>
                 <td>Туристическая виза в Испанию 90/180</td>
                 <td>€300</td>
               </tr>
@@ -120,7 +207,7 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
 
       </div>
@@ -167,9 +254,46 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
+      </div>
+    </div>
 
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead netherlands">
+          <h3>Нидерланды</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Туристическая виза в Нидерланды до 21 дня</td>
+                <td>€150</td>
+              </tr>
+              <tr>
+                <td>Туристическая виза в Нидерланды 180/90</td>
+                <td>€250</td>
+              </tr>
+              <tr class="collapse morenl">
+                <td>Туристическая виза в Нидерланды на 1 год</td>
+                <td>€350</td>
+              </tr>
+              <tr class="clickable moreli collapse in" data-toggle="collapse" data-target=".morenl" aria-expanded="false">
+                <td colspan="2" class="showmore">показать больше</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
+        </div>
       </div>
     </div>
 
@@ -188,10 +312,14 @@ layout: default
             </thead>
             <tbody>
               <tr>
+                <td>Бизнес мультивиза в Польшу на 5 лет</td>
+                <td>€1800</td>
+              </tr>
+              <tr>
                 <td>Туристическая виза в Польшу на 2 года</td>
                 <td>€550</td>
               </tr>
-              <tr>
+              <tr class="collapse morepl">
                 <td>Туристическая виза в Польшу на 1 год</td>
                 <td>€400</td>
               </tr>
@@ -222,7 +350,7 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
 
       </div>
@@ -254,7 +382,7 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
 
       </div>
@@ -283,7 +411,7 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
 
       </div>
@@ -320,12 +448,12 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
     </div>
 
-<!--     <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
       <div class="card">
         <div class="cardhead canada">
           <h3>Канада</h3>
@@ -340,8 +468,8 @@ layout: default
             </thead>
             <tbody>
               <tr>
-                <td>Виза B1/B1 (гостевая, туризм)</td>
-                <td>$200</td>
+                <td>Туристическая/гостевая виза в Канаду от 3х месяцев</td>
+                <td>$500</td>
               </tr>
               <tr>
                 <td>Заполнение анкеты</td>
@@ -351,10 +479,10 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
-    </div> -->
+    </div>
 
   </div><!-- row end -->
   
@@ -395,14 +523,41 @@ layout: default
                 <td>L: до 30  дней (однократный въезд) </td>
                 <td>$180</td>
               </tr>
-              <tr class="clickable morepl collapse in" data-toggle="collapse" data-target=".morepl" aria-expanded="false">
+              <tr class="clickable morecn collapse in" data-toggle="collapse" data-target=".morecn" aria-expanded="false">
                 <td colspan="2" class="showmore">показать больше</td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 countrycard">
+      <div class="card">
+        <div class="cardhead australia">
+          <h3>Австралия</h3>
+        </div>
+        <div class="cardcontent">
+          <table class="table table-hover cardtable">
+            <thead>
+              <tr>
+                <th>Услуга</th>
+                <th>Цена</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Туристическая виза в Австралию до 3х месяцев</td>
+                <td>$300</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="cardaction">
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
     </div>
@@ -429,7 +584,7 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
     </div>
@@ -449,18 +604,29 @@ layout: default
             </thead>
             <tbody>
               <tr>
-                <td>Виза во Вьетнам до 90 дней</td>
+                <td>Виза во Вьетнам до 90 дней (однократный въезд)</td>
                 <td>$150</td>
               </tr>
               <tr>
-                <td>Виза во Вьетнам до 30 дней</td>
+                <td>Виза во Вьетнам до 30 дней (однократный въезд)</td>
                 <td>$100</td>
+              </tr>
+              <tr class="collapse morevi">
+                <td>Туристическая мультивиза во Вьетнам до 30 дней</td>
+                <td>$100</td>
+              </tr>
+              <tr class="collapse morevi">
+                <td>Туристическая мультивиза во Вьетнам до 90 дней</td>
+                <td>$200</td>
+              </tr>
+              <tr class="clickable morevi collapse in" data-toggle="collapse" data-target=".morevi" aria-expanded="false">
+                <td colspan="2" class="showmore">показать больше</td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
     </div>
@@ -480,14 +646,41 @@ layout: default
             </thead>
             <tbody>
               <tr>
-                <td>Виза в Арабские Эмираты 30/60</td>
+                <td>Туристическая виза в Арабские Эмираты на 30 дней (однократный въезд)</td>
                 <td>$150</td>
+              </tr>
+              <tr>
+                <td>Туристическая виза в Арабские Эмираты на 30 дней (однократный въезд)</td>
+                <td>$200</td>
+              </tr>
+              <tr class="collapse moreuae">
+                <td>Туристическая виза в Арабские Эмираты на 30 дней (однократный въезд)</td>
+                <td>$250</td>
+              </tr>
+              <tr class="collapse moreuae">
+                <td>Туристическая мультивиза в Арабские Эмираты на 30 дней</td>
+                <td>$300</td>
+              </tr>
+              <tr class="collapse moreuae">
+                <td>Туристическая виза в Арабские Эмираты на 90 дней (однократный въезд)</td>
+                <td>$500</td>
+              </tr>
+              <tr class="collapse moreuae">
+                <td>Туристическая мультивиза в Арабские Эмираты на 90 дней</td>
+                <td>$800</td>
+              </tr>
+              <tr class="collapse moreuae">
+                <td>Транзитная виза в Арабские Эмираты на 90 дней (однократный въезд)</td>
+                <td>$125</td>
+              </tr>
+              <tr class="clickable moreuae collapse in" data-toggle="collapse" data-target=".moreuae" aria-expanded="false">
+                <td colspan="2" class="showmore">показать больше</td>
               </tr>
             </tbody>
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
     </div>
@@ -514,7 +707,7 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
     </div>
@@ -546,7 +739,7 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
     </div>
@@ -573,7 +766,7 @@ layout: default
           </table>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
     </div>
@@ -588,7 +781,7 @@ layout: default
           <p>Для граждан Украины оформление документов в Москве - €200.</p>
         </div>
         <div class="cardaction">
-          <a href="#" data-toggle="modal" data-target="#myModal">Заказать</a>
+          <a href="#" data-toggle="modal" data-target="#orderModal">Заказать</a>
         </div>
       </div>
     </div>
@@ -849,7 +1042,7 @@ layout: default
   <div class="container">
     <h2 class="lastcall">Чего же вы ждете?</h2>
     <p>Если у вас есть вопрос об организации путешествия за границу, <br>просто свяжитесь с нами сейчас, и получите ответ!</p>
-    <a class="lastchance" href="#" data-toggle="modal" data-target="#myModal">Спросите специалиста</a>
+    <a class="lastchance" href="#" data-toggle="modal" data-target="#orderModal">Спросите специалиста</a>
 
     <ul class="social">
       <li><a href="{{ site.facebook }}" target="_blank"><i class="fa fa-facebook"></i></a></li>
@@ -863,7 +1056,7 @@ layout: default
 
 
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="orderModal">
+<div class="modal fade" id="orderModal" tabindex="-1" role="dialog" aria-labelledby="orderModal">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
