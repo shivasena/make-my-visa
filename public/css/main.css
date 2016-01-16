@@ -663,16 +663,23 @@ textarea
 }
 
 /* Default Cards */
+.hungary {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ), url('../i/bg-flag-hg.jpg') center / cover;
+}
+.greatbritain {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ), url('../i/bg-flag-gb.jpg') center / cover;
+}
 .greece {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ), url('../i/bg-flag-gr.jpg') center / cover;
 }
-
 .spain {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-sp.jpg') center / cover;
 }
-
 .lithuania {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-li.jpg') center / cover;
+}
+.netherlands {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-nl.jpg') center / cover;
 }
 .poland {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-pl.jpg') center / cover;
@@ -683,48 +690,46 @@ textarea
 .france {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-fr.jpg') center / cover;
 }
-
 .usa {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-us.jpg') center / cover;   
 }
-
 .canada {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-ca.jpg') center / cover;   
 }
-
 .china {
-    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-ch.jpg') center / cover;   
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-ch.jpg') center / cover;
 }
-
+.australia {
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-aust.jpg') center / cover;
+}
 .indonesia {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-ind.jpg') center / cover;   
 }
-
 .vienam {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-viet.jpg') center / cover;   
 }
-
 .uae {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-uae.jpg') center / cover;   
 }
-
 .southkorea {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-sk.jpg') center / cover;   
 }
-
 .morocco {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-mr.jpg') center / cover;   
 }
-
 .southafrica {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ),  url('../i/bg-flag-sa.jpg') center / cover;   
 }
-
 .other {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ), url('../i/bg-map-all.jpg') center / cover;   
 }
-
     /* Hover Cards */
+    .countrycard:hover .hungary {
+        background: url('../i/bg-flag-hg.jpg') center / cover;
+    }
+    .countrycard:hover .greatbritain {
+        background: url('../i/bg-flag-gb.jpg') center / cover;
+    }
     .countrycard:hover .greece {
         background: url('../i/bg-flag-gr.jpg') center / cover;
     }
@@ -733,6 +738,9 @@ textarea
     }
     .countrycard:hover .lithuania {
         background: url('../i/bg-flag-li.jpg') center / cover;
+    }
+    .countrycard:hover .netherlands {
+        background: url('../i/bg-flag-nl.jpg') center / cover;
     }
     .countrycard:hover .poland {
         background: url('../i/bg-flag-pl.jpg') center / cover;
@@ -751,6 +759,9 @@ textarea
     }
     .countrycard:hover .china {
         background: url('../i/bg-flag-ch.jpg') center / cover;   
+    }
+    .countrycard:hover .australia {
+        background: url('../i/bg-flag-aust.jpg') center / cover;   
     }
     .countrycard:hover .indonesia {
         background: url('../i/bg-flag-ind.jpg') center / cover;   
