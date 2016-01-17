@@ -494,8 +494,6 @@ textarea
 
 .footer
 {
-    padding-bottom: 40px;
-
     text-align: center;
 
     color: #00BCD4;
@@ -853,4 +851,9 @@ textarea
 
 .showmore {
     color: #00BCD4;
+}
+
+.service {
+    text-align: center;
+    padding-bottom: 20px;
 }
