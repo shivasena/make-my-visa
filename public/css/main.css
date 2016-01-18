@@ -67,6 +67,8 @@ h5
     font-weight: bold;
 
     color: #00BCD4;
+    font-size: 24px;
+    line-height: 20px;
 }
 
 .iconitem
@@ -187,6 +189,10 @@ h4
 .whatwedo .label {
     font-weight: 100;
 }
+.whatwedo sup {
+    color: #e82b68;
+    font-style: italic;
+}
 
 /*
 .whatwedo span:before {
@@ -228,13 +234,14 @@ textarea
 .subscribe_btn
 {
     font-size: 16px;
-    font-weight: 400;
+    font-weight: bold;
 
     position: relative;
 
     width: 100%;
     height: 48px;
     margin: 0;
+    margin-top: 15px;
     padding: 30px 30px 5px 15px;
     padding: 10px;
 
@@ -249,23 +256,18 @@ textarea
 
 .subscribe_btn:hover
 {
-    margin: 0;
-    padding: 10px;
-
     color: #fff;
     background: #c42358;
 }
 
 .schedule {
-	margin-top: 15px;
+	margin-top: 25px;
 	color: #727272;
 }
 
 .form_footnote
 {
     font-size: 14px;
-
-    padding: 20px 20px 0;
 
     text-align: left;
 
@@ -666,7 +668,9 @@ textarea
 
 /* Default Cards */
 .hungary {
-    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ), url('../i/bg-flag-hg.jpg') center / cover;
+    background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ), url('../i/bg-flag-hg.jpg');
+    background-position: center;
+    background-size: cover;
 }
 .greatbritain {
     background: linear-gradient( rgba(2, 3, 90, 0.8), rgba(0, 188, 212, 0.8) ), url('../i/bg-flag-gb.jpg') center / cover;
@@ -727,7 +731,7 @@ textarea
 }
     /* Hover Cards */
     .countrycard:hover .hungary {
-        background: url('../i/bg-flag-hg.jpg') center / cover;
+        background-image: url('../i/bg-flag-hg.jpg');
     }
     .countrycard:hover .greatbritain {
         background: url('../i/bg-flag-gb.jpg') center / cover;
@@ -794,6 +798,10 @@ textarea
         background-color:#e82b68;
         color:#fff;
         box-shadow: 0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.2),0 1px 5px 0 rgba(0,0,0,.12);
+        -webkit-transition: all ease-out 0.5s;
+        -moz-transition: all ease-out 0.5s;
+        -o-transition: all ease-out 0.5s;
+        transition: all ease-out 0.5s;
     }
     
     .cardhead h3 {
